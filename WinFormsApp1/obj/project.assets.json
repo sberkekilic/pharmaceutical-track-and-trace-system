@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Semih Berke KILIÇ\\Source\\Repos\\pharmaceutical-track-and-trace-system\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Semih Berke KILIÇ\\Documents\\GitHub\\sberkekilic\\pharmaceutical-track-and-trace-system\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\Semih Berke KILIÇ\\Source\\Repos\\pharmaceutical-track-and-trace-system\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "C:\\Users\\Semih Berke KILIÇ\\Documents\\GitHub\\sberkekilic\\pharmaceutical-track-and-trace-system\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\Semih Berke KILIÇ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Semih Berke KILIÇ\\Source\\Repos\\pharmaceutical-track-and-trace-system\\WinFormsApp1\\obj\\",
+      "outputPath": "C:\\Users\\Semih Berke KILIÇ\\Documents\\GitHub\\sberkekilic\\pharmaceutical-track-and-trace-system\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Semih Berke KILIÇ\\AppData\\Roaming\\NuGet\\NuGet.Config",

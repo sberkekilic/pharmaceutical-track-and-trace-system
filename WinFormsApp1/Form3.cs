@@ -18,28 +18,36 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
-
+        SqlConnection cn;
         private void Form3_Load(object sender, EventArgs e)
         {
-            
+            SqlConnection cn = new SqlConnection("Data Source=DESKTOP-LIN8EHF;Initial Catalog=Drugs;Integrated Security=True;MultipleActiveResultSets=true");
+            cn.Open();
+            BindData();
         }
+
+        public void BindData()
+        {
+            SqlCommand cmd = new SqlCommand("select distinct MarkaAdi from Ilaclar", cn);
+            SqlDataReader dr = cmd.ExecuteReader();
+
+            SqlCommand cmd2 = new SqlCommand("select IlacKodu from Ilaclar where MarkaAdi=@x", cn);
+            SqlDataReader dr2 = cmd.ExecuteReader();
+
+            while (dr.Read())
+            {
+                comboBox1.Items.Add(dr[0].ToString());
+            }
+            dr.Close();
+        }
+
         private void comboBox1_Load(object sender, EventArgs e)
         {
-            
+
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string ConnectionString = "Data Source=DESKTOP-LIN8EHF;Initial Catalog=Drugs;Integrated Security=True";
-            SqlConnection baglan = new SqlConnection(ConnectionString);
-            SqlCommand komut = new SqlCommand("select distinct MarkaAdi,ID from Ilaclar", baglan);
-            SqlDataAdapter da = new SqlDataAdapter(komut);
-            baglan.Open();
-            DataSet ds = new DataSet();
-            da.Fill(ds);
-
-            comboBox1.DataSource = ds.Tables[0];
-            comboBox1.DisplayMember = "MarkaAdi";
-            comboBox1.ValueMember = "ID";
         }
+
     }
 }
