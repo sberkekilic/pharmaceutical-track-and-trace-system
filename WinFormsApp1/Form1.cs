@@ -254,7 +254,10 @@ namespace WinFormsApp1
 
         private void button7_Click(object sender, EventArgs e)
         {
+            Form3 newForm3 = new Form3();
+            newForm3.Show();
 
+            
         }
     }
 }

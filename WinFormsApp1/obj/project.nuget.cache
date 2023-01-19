@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f1aRVbhnZrFrkRiOwgtnr4EofHwYVkZu/82gwwoy2VS5lHyjaTkGCnuCqnms3Soa32gT4AL71mZMvR7AX1txPQ==",
+  "dgSpecHash": "1BUDtcSkmJfFKrnEN0rMppFYT6hBaIecrMDtg6GFqsR9rLKUjsnuJTHKDi0fU5kiQ8iYNItvsbkMJSU6ypxQzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Semih Berke KILIÇ\\source\\repos\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "C:\\Users\\Semih Berke KILIÇ\\Source\\Repos\\pharmaceutical-track-and-trace-system\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Semih Berke KILIÇ\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Semih Berke KILIÇ\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

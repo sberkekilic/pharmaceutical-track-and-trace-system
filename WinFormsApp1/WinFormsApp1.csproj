@@ -13,9 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Application\" />
     <Folder Include="Class\" />
     <Folder Include="Data\" />
-    <Folder Include="Application\" />
   </ItemGroup>
 
 </Project>
